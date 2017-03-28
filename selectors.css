@@ -1,0 +1,72 @@
+
+/* clear all line*/ 
+* {
+	box-sizing: border-box;
+}
+
+
+/*header styling */
+
+header {
+	border: 1px solid violet;
+}
+
+
+/* Body Styling */
+
+.main-header ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+.disabled {
+	color: grey;
+}
+
+.disabled a {
+	color: purple;
+}
+
+.`active {
+	color:yellow;
+}
+
+/*.parent div:nth-child(2n+1) {
+	color: red;
+
+}	
+
+.parent div:nth-child(2) {
+	color:blue;
+}
+*/
+
+.grandparent div:nth-child(even) {
+	color:red;
+}
+
+.parent div:nth-child(odd) {
+	color:blue;
+}
+
+.grandparent h4 {
+	border: 1px solid purple;
+	border-radius: 20%;
+}
+
+.promo {
+	font-weight: bold;
+	color:gold;
+}
+
+
+input {
+	height: 25px;
+}
+
+
+
+
+
+
